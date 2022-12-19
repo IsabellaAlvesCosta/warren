@@ -1,0 +1,52 @@
+.rodape-superior{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  .abrir-conta{
+    color: #fff;
+    background-color: black;
+
+    width: 160px;
+    
+    margin-top: 15px;
+  }
+}
+
+.faixa-principal{
+  display: flex;
+  flex-direction: column;
+  
+
+  margin-top: 80px;
+  margin-left: 230px;
+
+  padding-left: 20px;
+
+  width: 1000px;
+  height: 1000px;
+
+  background-image: url(./assets/images/background.png);
+  background-repeat: no-repeat;
+  background-size: 1000px ;
+
+  border-radius: 10px;
+
+  .pequenos-textos{
+    .text-1{
+      color: #fff;
+
+      font-size: 64px;
+    }
+
+    .pp{
+      color: #fff;
+    }
+
+    .comece-agora{
+      color: #fff;
+      background-color: #e02b57;
+
+    }
+  }
+}
